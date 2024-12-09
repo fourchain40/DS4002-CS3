@@ -50,7 +50,7 @@ Sports-Viewership-Post-COVID/
    pip install -r requirements.txt
 3. **Complete the analysis**
    - Open SCRIPTS/template_script.py and complete the following tasks:
-   - Clean the raw viewership data in DATA/viewership_data.csv (look for TODOs).
+   - Clean the raw viewership data in DATA/ (look for TODOs).
    - Train a double exponential smoothing model.
    - Forecast viewership for 2021-2024.
    - Calculate the percentage difference between forecasted and actual viewersh
