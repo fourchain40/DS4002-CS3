@@ -29,7 +29,8 @@ Sports-Viewership-Post-COVID/
 │   ├── MLB.csv      # Imported MLB championship viewership data
 │   ├── NHL.csv      # Imported NHL championship viewership data
 ├── SCRIPTS/
-│   └── template_script.py
+│   └── template_preprocess_script.ipynb
+    └── template_modeling_script.ipynb
 ├── OUTPUT/
 │   └── (for final results)
 ├── sports_viewership_covid.pdf  # Printed WEF reference
@@ -49,8 +50,8 @@ Sports-Viewership-Post-COVID/
    ```bash
    pip install -r requirements.txt
 3. **Complete the analysis**
-   - Open SCRIPTS/template_script.py and complete the following tasks:
-   - Clean the raw viewership data in DATA/ (look for TODOs).
+   - Open SCRIPTS/template_preprocess_script.ipynb and template_modeling_script.ipynb and complete the following tasks:
+   - Plot viewrship vs. year for each league (look for TODOs).
    - Train a double exponential smoothing model.
    - Forecast viewership for 2021-2024.
    - Calculate the percentage difference between forecasted and actual viewersh
