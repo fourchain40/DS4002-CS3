@@ -24,7 +24,10 @@ Sports-Viewership-Post-COVID/
 ├── README.md
 ├── LICENSE.md
 ├── DATA/
-│   └── viewership_data.csv
+│   ├── NFL.csv      # Imported NFL championship viewership data
+│   ├── NBA.csv      # Imported NBA championship viewership data
+│   ├── MLB.csv      # Imported MLB championship viewership data
+│   ├── NHL.csv      # Imported NHL championship viewership data
 ├── SCRIPTS/
 │   └── template_script.py
 ├── OUTPUT/
