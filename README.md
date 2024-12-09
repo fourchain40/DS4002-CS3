@@ -29,7 +29,11 @@ Sports-Viewership-Post-COVID/
 │   └── template_script.py
 ├── OUTPUT/
 │   └── (for final results)
-└── requirements.txt
+├── sports_viewership_covid.pdf  # Printed WEF reference
+└── exponential_smoothing.pdf    # Printed ML Mastery reference
+├── requirements.txt         # List of required Python libraries
+└── rubric.pdf               # Rubric for the case study
+└── hook_doc.pdf             # Hook document for the case study
 
 ```
 ## Instructions for Reproducing Results
@@ -41,16 +45,18 @@ Sports-Viewership-Post-COVID/
 2. **Install the required packages**
    ```bash
    pip install -r requirements.txt
-3. **Complete the Analysis (User Tasks)*
-   Task 1: Open SCRIPTS/template_script.py and complete the following tasks:
-        - Clean the raw viewership data in DATA/viewership_data.csv (look for TODOs).
-        - Train a double exponential smoothing model.
-        - Forecast viewership for 2021-2024.
-        - Calculate the percentage difference between forecasted and actual viewersh
+3. **Complete the analysis (User Task)
+   - Open SCRIPTS/template_script.py and complete the following tasks:
+   - Clean the raw viewership data in DATA/viewership_data.csv (look for TODOs).
+   - Train a double exponential smoothing model.
+   - Forecast viewership for 2021-2024.
+   - Calculate the percentage difference between forecasted and actual viewersh
 4. **Save the Results**
   - Save your forecasted viewership data in OUTPUT/forecast_results.csv.
   - Save any visualizations in OUTPUT/visualizations/.
   - Write and save your final 5-page report as OUTPUT/final_report.pdf.
 
 ## References
-Wikipedia, “Exponential Smoothing” https://en.wikipedia.org/wiki/Exponential_smoothing#Double_exponential_smoothing_(Holt_linear)
+- Wikipedia, “Exponential Smoothing” https://en.wikipedia.org/wiki/Exponential_smoothing#Double_exponential_smoothing_(Holt_linear)
+- World Economic Forum, "The Impact of COVID-19 on Sports Viewership," https://www.weforum.org/agenda/2020/04/sports-covid19-coronavirus-excersise-specators-media-coverage/
+- Machine Learning Mastery, "Exponential Smoothing for Time Series Forecasting," https://machinelearningmastery.com/exponential-smoothing-for-time-series-forecasting-in-python/
