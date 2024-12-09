@@ -45,7 +45,7 @@ Sports-Viewership-Post-COVID/
 2. **Install the required packages**
    ```bash
    pip install -r requirements.txt
-3. **Complete the analysis (User Task)
+3. **Complete the analysis**
    - Open SCRIPTS/template_script.py and complete the following tasks:
    - Clean the raw viewership data in DATA/viewership_data.csv (look for TODOs).
    - Train a double exponential smoothing model.
