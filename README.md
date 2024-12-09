@@ -51,7 +51,7 @@ Sports-Viewership-Post-COVID/
    pip install -r requirements.txt
 3. **Complete the analysis**
    - Open SCRIPTS/template_preprocess_script.ipynb and template_modeling_script.ipynb and complete the following tasks:
-   - Plot viewrship vs. year for each league (look for TODOs).
+   - Plot viewership vs. year for each league (look for TODOs).
    - Train a double exponential smoothing model.
    - Forecast viewership for 2021-2024.
    - Calculate the percentage difference between forecasted and actual viewersh
